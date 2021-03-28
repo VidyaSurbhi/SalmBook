@@ -1,0 +1,117 @@
+﻿Build started 28-03-2021 16:11:37.
+     1>Project "C:\Users\Chhota DON\Documents\Visual Studio 2010\Projects\SlamVidya\SlamVidya\SlamVidya.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\SlamVidya.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SlamVidya.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt MakeProfile.cpp SlamVidya.cpp /clr:nostdlib 
+         MakeProfile.cpp
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(11): error C2039: 'cout' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(11): error C2873: 'cout' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(12): error C2039: 'cin' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(12): error C2873: 'cin' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(13): error C2039: 'endl' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(13): error C2873: 'endl' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(14): error C2039: 'fstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(14): error C2873: 'fstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(15): error C2039: 'ofstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(15): error C2873: 'ofstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(16): error C2039: 'ifstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(16): error C2873: 'ifstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(17): error C2039: 'ios' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(17): error C2873: 'ios' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C2039: 'label1_Click' : is not a member of 'SlamVidya::MakeProfile'
+                 c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(22) : see declaration of 'SlamVidya::MakeProfile'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C2065: 'label1_Click' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2065: 'Dim' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2146: syntax error : missing ';' before identifier 'Nickname'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2065: 'Nickname' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2146: syntax error : missing ';' before identifier 'As'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2065: 'As' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2146: syntax error : missing ';' before identifier 'String'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'Dim' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'FileNum'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'As'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'As' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'Integer'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'Integer' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C3861: 'FreeFile': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2065: 'OpenMode' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2228: left of '.Input' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2146: syntax error : missing ';' before identifier 'PrintLine'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C3861: 'FileOpen': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::TextBox ^'
+                 did you intend to use '->' instead?
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C2146: syntax error : missing ';' before identifier 'FileClose'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C3861: 'PrintLine': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(442): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C3861: 'FileClose': identifier not found
+         SlamVidya.cpp
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(11): error C2039: 'cout' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(11): error C2873: 'cout' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(12): error C2039: 'cin' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(12): error C2873: 'cin' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(13): error C2039: 'endl' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(13): error C2873: 'endl' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(14): error C2039: 'fstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(14): error C2873: 'fstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(15): error C2039: 'ofstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(15): error C2873: 'ofstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(16): error C2039: 'ifstream' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(16): error C2873: 'ifstream' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(17): error C2039: 'ios' : is not a member of 'std'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(17): error C2873: 'ios' : symbol cannot be used in a using-declaration
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C2039: 'label1_Click' : is not a member of 'SlamVidya::MakeProfile'
+                 c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(22) : see declaration of 'SlamVidya::MakeProfile'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C2065: 'label1_Click' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(150): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2065: 'Dim' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2146: syntax error : missing ';' before identifier 'Nickname'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2065: 'Nickname' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(433): error C2146: syntax error : missing ';' before identifier 'As'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2065: 'As' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2146: syntax error : missing ';' before identifier 'String'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(434): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'Dim' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'FileNum'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'As'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'As' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2146: syntax error : missing ';' before identifier 'Integer'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C2065: 'Integer' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(436): error C3861: 'FreeFile': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2065: 'OpenMode' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C2228: left of '.Input' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2146: syntax error : missing ';' before identifier 'PrintLine'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(437): error C3861: 'FileOpen': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::TextBox ^'
+                 did you intend to use '->' instead?
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C2146: syntax error : missing ';' before identifier 'FileClose'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(438): error C3861: 'PrintLine': identifier not found
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C2065: 'FileNum' : undeclared identifier
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(442): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\chhota don\documents\visual studio 2010\projects\slamvidya\slamvidya\MakeProfile.h(439): error C3861: 'FileClose': identifier not found
+         Generating Code...
+     1>Done Building Project "C:\Users\Chhota DON\Documents\Visual Studio 2010\Projects\SlamVidya\SlamVidya\SlamVidya.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.20
